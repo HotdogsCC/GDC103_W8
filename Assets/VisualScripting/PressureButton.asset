@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PressureButton
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-365.0,"y":-40.0},"guid":"830e2d1e-0e3a-4f4d-a5a0-8653107c56d1","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"DoorToOpen","$type":"System.String"},"object":null},"position":{"x":-362.0,"y":109.0},"guid":"0ab877d0-45bb-4aa6-b8f5-f0c84e4655b8","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"argumentCount":1,"defaultValues":{"name":{"$content":"DoorAnimation","$type":"System.String"},"target":null},"position":{"x":29.0,"y":-29.0},"guid":"061252a9-91bb-416c-aec8-7373e5560c0a","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"13"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-90.0,"y":171.0},"guid":"09e066a3-6518-48f1-b248-e094d13f2897","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"0db7f276-2362-4bde-882d-7f3dcc8ddf7f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"argument_0","guid":"34507866-a7f7-4d14-8047-d048806baaa6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"788f57a5-6577-4b81-8d16-bb4dad4f326c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
